@@ -2,18 +2,18 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.moodle.moodlemobile"
+        id        = "com.camemobile.ar"
         versionCode = "37100"
         android-versionCode="37100"
         version   = "3.7.1">
-    <name>Moodle</name>
+    <name>CAMEeducativa</name>
 
     <description>
-        Moodle official app
+        Plataforma de Capacitación CAMEeducativ@
     </description>
 
-    <author href="http://moodle.com" email="mobile@moodle.com">
-        Moodle Mobile team
+    <author href="http://ilerni.com" email="fpicone@ilerni.com">
+        Federico Picone
     </author>
 
     <edit-config target="CFBundleShortVersionString" file="*-Info.plist" mode="merge">
@@ -48,7 +48,7 @@
     <preference name="webviewbounce"    value="false" />
     <preference name="prerendered-icon" value="true" />
     <preference name="load-url-timeout" value="60000" />
-    <preference name="AppendUserAgent" value="MoodleMobile" />
+    <preference name="AppendUserAgent" value="CAMEeducativa" />
     <preference name="android-minSdkVersion" value="19" />
     <preference name="android-targetSdkVersion" value="28" />
     <preference name="android-installLocation" value="auto" />
